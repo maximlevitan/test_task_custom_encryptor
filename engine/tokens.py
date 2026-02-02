@@ -11,7 +11,7 @@ class TokenType(Enum):
 
 
 Symbol = Union[str, int]
-# str: character letter, спецсимвол, "{{101}}", "#"
+# str: character letter, special symbol [!,.?...], macros "{{101}}", "#"
 # int: digits (0–9)
 
 
